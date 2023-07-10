@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zap | Music Player</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i id="closeAll" class='bx bx-x'></i>
+            <span>Now Playing</span>
+            <i class='bx bx-dots-horizontal-rounded' title="not working"></i>
+        </div>
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+        <div class="song-details">
+            <div class="name"></div>
+            <div class="artist"></div>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar"></div> 
+            <div class="timer">
+                <span class="current"></span>
+                <span class="duration"></span>
+            </div>
+            <audio id="music-audio" src=""></audio>
+        </div>       
+        <div class="controls">
+            <i id="repeat" class='bx bx-shuffle' title="repeat all"></i>
+            <i id="prev" class='bx bx-skip-previous' ></i>
+            <div class="play-pause">
+                <i id="playPause" class='bx bx-play' ></i>
+            </div>
+            <i id="next" class='bx bx-skip-next' ></i>
+            <i id="queue" class='bx bxs-playlist' ></i>
+        </div>
+        <div class="playlist">
+            <div class="header">
+                <div class="row">
+                    <i class='bx bxs-playlist'></i>
+                    <span>Playlist</span>
+                </div>
+                <i class='bx bx-x' id="close" ></i>
+            </div>
+            <ul>
+                
+            </ul>
+
+        </div>        
+    </div>
+    
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/music-list.js"></script>
+</body>
+</html>
