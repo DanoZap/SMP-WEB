@@ -153,7 +153,7 @@ let allMusic = [
     name: "01 dE ENEro",
     artist: "DUKI, Lucho SSJ",
     src: "track-1",
-    img: "ada.png"
+    img: "ada"
   },
   {
     name: "JEFES DEL SUDOESTE",
