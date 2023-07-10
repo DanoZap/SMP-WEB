@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
 function loadMusic(indexNum) {
   musicName.innerText = allMusic[indexNum].name;
   musicArtist.innerText = allMusic[indexNum].artist;
-  musicImg.src = `./assets/img/${allMusic[indexNum].img}.png`
+  musicImg.src = `../assets/img/${allMusic[indexNum].img}.png`
   musicAudio.src = `./assets/music/${allMusic[indexNum].src}.mp3`;
 }
 
